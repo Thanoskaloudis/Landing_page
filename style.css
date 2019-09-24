@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato',sans-serif;
+    color:#505962;
+}
+
+/* Nav Bar Section */
+.offset:before{
+    height:62px;
+    margin-top: -62px;
+    content: "";
+    display: block;
+}
+
+[class*="col-"]{
+    padding: 1rem;
+}
+
+.navbar{
+    padding: .6rem 1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    background-color: rgba(57,63,70,.8) !important;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+.navbar-brand span{
+color:white;
+}
+.navbar-nav .nav-link{
+    color: white;
+    padding: .8rem;
+    padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+color:#B68E94;
+}
+.navbar-nav li{
+    padding-right: .8rem;
+}
+.svg-inline--fa.fa-bars.fa-w-14{
+    color:white;
+    font-size: 1.6rem;
+}
+/*End Nav Bar Section */
+
+/* Landing Page Section */
+.home-inner{
+   background-image: url('img/jerome-prax-jLZWzT_kdTI-unsplash.jpg') 
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:40%;
+    z-index: 1;
+}
+.caption h3{
+    color: white;
+    font-size:2.4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+.btn{
+    border-width:medium; 
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size:.9rem;
+}
+/*End Landing Page Section */
+
+/* About Section */
+.jumbotron{
+   margin-bottom: 0;
+   border-radius: 0;
+   padding: 3rem 0 3rem;
+}
+.narrow{
+    width:85%;
+    margin:0 auto;
+    padding-top: 1rem;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:1.9rem;
+}
+.heading-underline{
+    width:3rem;
+    height: .2rem;
+    background-color: #B68E94;
+    margin:0 auto 2rem;
+}
+.about p{
+    font-size: 1.2rem;
+}
+
+/*End About Section */
+
+/* Footer Section */
+.footer .row{
+    background-color: rgba(57,63,70,.8) !important;
+    padding:1rem 1rem 1rem;
+    color:white;
+}
+.footer img{
+    height:2rem;
+    margin: 1.5rem 0;
+}
+.footer .svg-inline--fa{
+    color:white;
+    margin:1.2rem .5rem 0 0;
+    cursor: pointer;
+}
+.footer .svg-inline--fa:hover{
+    color:#B68E94 !important;
+}
+.footer-container {
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	text-align: center;
+	border-radius: 5px;
+  width: 480px;
+  display: inline;
+}
+  
+.footer-container h2 {
+	letter-spacing: 2px;
+	font-size: 1.5em;
+  margin-bottom: 3px;
+  color:white;
+
+	
+	
+}
+.footer-container p {
+	font-size: 1.3em;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.footer-container input {
+  width: 210px;
+  margin-bottom: 8px;
+	text-align: center;
+	border-radius: 7px;
+	background: #eee;
+	padding: .5rem .3rem;
+	outline: none;
+	border: none;
+}
+
+.footer-container button {
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	padding: 0.5em 1.9em;
+	border-radius: 7px;
+	font-size: 1.4em;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 1em;
+	outline: none;
+	border: none;
+}
+
+  hr.socket{
+    width: 100%;
+    border-top:.2rem solid #666d71;
+  }
+/*End Footer Section */
+
+/*Media Queries Section */
+@media(max-width:768px){
+  .caption{
+    top:35%
+  }
+  .caption h3{
+    font-size: 1.8rem;
+    padding-bottom: 1.2rem;
+  }
+}
+/*End Media Queries Section */
+
+
